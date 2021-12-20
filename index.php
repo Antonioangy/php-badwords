@@ -9,18 +9,20 @@
 <body>
     <style>
         *{
-            background-color: yellow;
+            background-color: red;
             text-align: center;
         }
     </style>
 
     <?php
-        $x = "la mia prima volta";
-        $y = "su php";
-        $z = $x . $y;
+        $p = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati repudiandae impedit error quidem molestias quaerat natus laborum, quod, tempore voluptate magni adipisci deleniti vitae sapiente? Vel quam fuga saepe.";
     ?>
     <?php
-        echo $z;
+        echo $p;
+    ?>
+    <?php
+        <br>
+        echo strlen($p);
     ?>
 </body>
 </html>
